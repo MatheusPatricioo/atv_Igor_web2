@@ -1,66 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo2.css">
+    <title>Lista de contatos</title>
 
-    <title>Price cards!</title>
-
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__logo">MyServer</div>
-        <nav class="header__nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="https://serfrontend.com" class="header__nav--active">Planos</a></li>
-                <li><a href="#">Suporte</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <h1 class="main-title">Escolha seu plano</h1>
+    <h1 class="main-title">Lista de contatos</h1>
 
-    <section class="pricing">
-        <div class="pricing-plan">
-            <h2 class="class-plan__title">Essencial</h2>
-            <p> <span class="pricing-plan__price">R$ 3.95</span> / mês</p>
-            <ul class="pricing-plan__features">
-                <li>1 Website</li>
-                <li>1GB de Armazenamento</li>
-                <li>10GB de transferência</li>
-            </ul>
-            <a href="#" class="pricing-plan__cta">Assine Já</a>
-        </div>
+    <div class="list-wrapper">
+        <ul class="list">
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/1.jpg" alt="Brennan George">
+                </div>
 
-        <div class="pricing-plan">
-            <h2 class="class-plan__title">Premium</h2>
-            <p> <span class="pricing-plan__price">R$ 7.95</span> / mês</p>
-            <ul class="pricing-plan__features">
-                <li>5 Website</li>
-                <li>3GB de Armazenamento</li>
-                <li>Transferência ilimitada</li>
-                <li>10 horas de suporte mensais</li>
-            </ul>
-            <a href="#" class="pricing-plan__cta">Assine Já</a>
-        </div>
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Brennan George
+                    </p>
+                    <p class="list-item__email">brennan.george@example.com</p>
+                </div>
 
-        <div class="pricing-plan">
-            <h2 class="class-plan__title">Deluxe</h2>
-            <p> <span class="pricing-plan__price">R$ 13.95</span> / mês</p>
-            <ul class="pricing-plan__features">
-                <li>10 Website</li>
-                <li>30GB de Armazenamento</li>
-                <li>Transferência ilimitada</li>
-                <li>30 horas de suporte mensais</li>
-                <li>Email personalizado</li>
-            </ul>
-            <a href="#" class="pricing-plan__cta">Assine Já</a>
-        </div>
-    </section>
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/2.jpg" alt="Brennan George">
+                </div>
+
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Adam Weaver
+                    </p>
+                    <p class="list-item__email">adam.weaver@example.com</p>
+                </div>
+
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/3.jpg" alt="Brennan George">
+                </div>
+
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Troy Butler
+                    </p>
+                    <p class="list-item__email">troy.butler@example.com</p>
+                </div>
+
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/4.jpg" alt="Brennan George">
+                </div>
+
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Isobel Lewis
+                    </p>
+                    <p class="list-item__email">isobel.lewis@example.com</p>
+                </div>
+
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/5.jpg" alt="Brennan George">
+                </div>
+
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Lisa Garcia
+                    </p>
+                    <p class="list-item__email">lisa.garcia@example.com</p>
+                </div>
+
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-item__imagem">
+                    <img src="imagens/6.jpg" alt="Brennan George">
+                </div>
+
+                <div class="list-item__content">
+                    <p class="list-item__name">
+                        Carolyn Silva
+                    </p>
+                    <p class="list-item__email">carolyn.silva@example.com</p>
+                </div>
+
+                <div class="list-item__action">
+                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                    <a href="#"><img src="imagens/edit.png" alt="Edit"></a>
+                </div>
+            </li>
+
 </body>
 
 </html>
